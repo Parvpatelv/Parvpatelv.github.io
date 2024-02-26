@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7; /* Light background for contrast */
+}
+
+h1 {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bio-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bio-box {
+    background-color: #6a1b9a; /* Purple background */
+    border: 50px solid #ffeb3b; /* Yellow border */
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+}
+
+p {
+    text-align: justify; /* Justified text for a cleaner look */
+    line-height: 1.6; /* Improved readability */
+}
